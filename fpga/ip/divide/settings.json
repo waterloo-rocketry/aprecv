@@ -1,0 +1,33 @@
+{
+    "args": [
+        "-o",
+        "divide",
+        "--base_path",
+        "/home/rio/code/rocketry/aprecv/fpga/ip",
+        "--vlnv",
+        {
+            "vendor": "efinixinc.com",
+            "library": "arithmetic",
+            "name": "efx_divider",
+            "version": "5.0"
+        }
+    ],
+    "conf": {
+        "NREPRESENTATION": "\"SIGNED\"",
+        "WIDTHN": "12",
+        "WIDTHD": "12",
+        "DREPRESENTATION": "\"UNSIGNED\"",
+        "PIPELINE": "1'b1",
+        "LATENCY": "12"
+    },
+    "output": {
+        "external_source_source": [
+            "/home/rio/code/rocketry/aprecv/fpga/ip/divide/divide.v",
+            "/home/rio/code/rocketry/aprecv/fpga/ip/divide/divide_tmpl.vhd",
+            "/home/rio/code/rocketry/aprecv/fpga/ip/divide/divide_define.vh",
+            "/home/rio/code/rocketry/aprecv/fpga/ip/divide/divide_tmpl.v"
+        ]
+    },
+    "sw_version": "2023.1.150",
+    "generated_date": "2023-10-30T01:00:39.352379"
+}
