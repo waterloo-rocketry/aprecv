@@ -9,18 +9,17 @@ module top (
    input  pll_locked_i
 );
 
-wire data;
+wire [9:0] data;
 wire rst = ~nrst_i;
 
-reg [7:0] counter;
+reg [9:0] counter;
 
-fm_demod fm_demod_u1 (
-   .clk       (main_clk),
-   .rst_i     (rst),
-   .I_i       (0),
-   .Q_i       (0),
-   .dvalid_i  (0),
-   .data_o    ()
+const_multiplier #(
+   .CONST_FACTOR(3)
+) const_multiplier_u1 (
+   .clk(main_clk),
+   .data_i(counter),
+   .product_o(data)
 );
 
 always @(posedge main_clk, posedge rst) begin
@@ -32,5 +31,6 @@ always @(posedge main_clk, posedge rst) begin
 end
 
 assign pll_rst_o = rst;
+assign sdo_o = ^data;
 
 endmodule

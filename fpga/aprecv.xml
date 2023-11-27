@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<efx:project name="aprecv" description="APRS Receiver" last_change_date="週日 10月 29 2023 18:07:33" location="/home/rio/code/rocketry/aprecv/fpga" sw_version="2023.1.150" last_run_state="pass" last_run_tool="efx_pgm" last_run_flow="bitstream" config_result_in_sync="sync" design_ood="sync" place_ood="sync" route_ood="sync" xmlns:efx="http://www.efinixinc.com/enf_proj" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.efinixinc.com/enf_proj enf_proj.xsd">
+<efx:project name="aprecv" description="APRS Receiver" last_change_date="週六 11月 11 2023 12:53:30" location="/home/rio/code/rocketry/aprecv/fpga" sw_version="2023.1.150" last_run_state="pass" last_run_tool="efx_pgm" last_run_flow="bitstream" config_result_in_sync="sync" design_ood="sync" place_ood="sync" route_ood="sync" xmlns:efx="http://www.efinixinc.com/enf_proj" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.efinixinc.com/enf_proj enf_proj.xsd">
     <efx:device_info>
         <efx:family name="Trion"/>
         <efx:device name="T20Q144"/>
         <efx:timing_model name="C3"/>
     </efx:device_info>
-    <efx:design_info def_veri_version="verilog_2k" def_vhdl_version="vhdl_2008">
+    <efx:design_info def_veri_version="sv_09" def_vhdl_version="vhdl_2008">
         <efx:top_module name="top"/>
         <efx:design_file name="top.v" version="default" library="default"/>
-        <efx:design_file name="fm_demod.v" version="default" library="default"/>
         <efx:top_vhdl_arch name=""/>
     </efx:design_info>
     <efx:constraint_info>

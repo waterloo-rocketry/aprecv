@@ -18,16 +18,6 @@ reg       dvalid       = 0;
 
 always #(500e6 / MAIN_FREQ) main_clk = ~main_clk;
 
-fm_demod fm_demod_u1 (
-   .clk       (main_clk),
-   .clken_i   (1'b1),
-   .rst_i     (reset),
-   .I_i       (I),
-   .Q_i       (Q),
-   .dvalid_i  (dvalid),
-   .data_o    ()
-);
-
 reg sample_event_d1;
 always @(posedge main_clk) begin
    if(sample_event != sample_event_d1) begin
@@ -71,5 +61,20 @@ initial begin
    $fclose(fd);
    $finish;
 end
+
+reg [9:0] counter;
+always @(posedge main_clk) begin
+   counter <= counter + 1;
+
+   if(counter == 10'h3ff) $finish();
+end
+
+const_multiplier #(
+   .CONST_FACTOR (3)
+) const_multiplier_u1 (
+   .clk       (main_clk),
+   .data_i    (counter),
+   .product_o ()
+);
 
 endmodule;

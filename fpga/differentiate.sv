@@ -1,3 +1,6 @@
+// TODO: add low-pass to the filter https://ieeexplore.ieee.org/document/8624664
+// I. W. Selesnick, "Maximally flat low-pass digital differentiators", http://eeweb.poly.edu/iselesni/lowdiff/lowdiff.m
+
 /*
  * Simple differntiator from https://en.wikipedia.org/wiki/Five-point_stencil
  * the output is scaled by factor of 12
