@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "MAX2680")(type "KiCad")(uri "/home/rio/code/rocketry/aprecv/prototype_schematics/MAX2680.kicad_sym")(options "")(descr ""))
+)
