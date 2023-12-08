@@ -84,7 +84,7 @@ PRINT "M2 = ", M2
 PRINT "Isum = ", Isum
 INPUT "Pick preferred numbers for Fvco vs Vcoin plot? y/n? ", Q3$
 IF Q3$="n" THEN GOTO Quit
-PRINT "Note. IN NO CASE SHOULD Rl OR R2 BE LESS THAN 3000 Ω!!"
+PRINT "Note. IN NO CASE SHOULD R1 OR R2 BE LESS THAN 3000 Ω!!"
 RepeatOffset:
 INPUT "Enter preferred value of C1 ", C1
 INPUT "Enter preferred value of R1 ", R1
@@ -92,7 +92,7 @@ INPUT "Enter preferred value of R2 ", R2
 PRINT "Vcoin", "Fvco", "Isum"
 FOR Vcoin = 1 TO Vcc-.5 STEP .5
 I2=(Vcc-.6)/R2
-I1=Vcoin/Rl
+I1=Vcoin/R1
 M1=-.04343*LOG(I1/.001)+6
 M2=-.087*LOG(I2)+4.6+.4*Vcc
 Isum=M1*I1+M2*I2
