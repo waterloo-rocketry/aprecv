@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "CSTNE24M0VH3C000R0_MUR")(type "KiCad")(uri "${KIPRJMOD}/CSTNE24M0VH3C000R0_MUR.pretty")(options "")(descr ""))
+  (lib (name "prototype_schematics")(type "KiCad")(uri "${KIPRJMOD}")(options "")(descr ""))
+)

@@ -1,7 +1,8 @@
 (sym_lib_table
   (version 7)
-  (lib (name "MAX2680")(type "KiCad")(uri "/home/rio/code/rocketry/aprecv/prototype_schematics/MAX2680.kicad_sym")(options "")(descr ""))
-  (lib (name "TPA721DR")(type "KiCad")(uri "/home/rio/code/rocketry/aprecv/prototype_schematics/TPA721DR.kicad_sym")(options "")(descr ""))
+  (lib (name "MAX2680")(type "KiCad")(uri "${KIPRJMOD}/MAX2680.kicad_sym")(options "")(descr ""))
+  (lib (name "TPA721DR")(type "KiCad")(uri "${KIPRJMOD}/TPA721DR.kicad_sym")(options "")(descr ""))
   (lib (name "MAX2608EUT")(type "KiCad")(uri "${KIPRJMOD}/MAX2608EUT.kicad_sym")(options "")(descr ""))
   (lib (name "RT9059GSP")(type "KiCad")(uri "${KIPRJMOD}/RT9059GSP.kicad_sym")(options "")(descr ""))
+  (lib (name "TA0411A")(type "KiCad")(uri "${KIPRJMOD}/TA0411A.kicad_sym")(options "")(descr ""))
 )
