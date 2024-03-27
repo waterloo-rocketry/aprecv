@@ -1,5 +1,501 @@
-(kicad_sch (version 20230121) (generator eeschema)
-  (paper "A4")
-  (lib_symbols)
-  (symbol_instances)
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "8a8e4ede-5ef9-4a53-a3a5-89928e3630c6")
+	(paper "A4")
+	(lib_symbols)
+	(no_connect
+		(at 222.25 86.36)
+		(uuid "57992069-559e-4f27-aad6-df1dd16244a4")
+	)
+	(wire
+		(pts
+			(xy 199.39 73.66) (xy 199.39 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bf99066-601b-4266-85f6-bbdbf315592e")
+	)
+	(wire
+		(pts
+			(xy 194.31 73.66) (xy 194.31 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c3683bb-5957-4d86-8f2b-ac5c110cf349")
+	)
+	(wire
+		(pts
+			(xy 176.53 73.66) (xy 176.53 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23545c1d-57a3-4388-99ca-d36817993da3")
+	)
+	(wire
+		(pts
+			(xy 113.03 63.5) (xy 133.35 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26143a73-c407-4d30-bf00-ce5d67a47346")
+	)
+	(wire
+		(pts
+			(xy 204.47 73.66) (xy 204.47 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2994253a-d167-4379-954b-ef2409dfb3d7")
+	)
+	(wire
+		(pts
+			(xy 207.01 73.66) (xy 207.01 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41b216e4-877e-4903-9fe7-65a8e9324ff2")
+	)
+	(wire
+		(pts
+			(xy 181.61 73.66) (xy 181.61 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "432ed8c9-9dd5-4dbe-8614-c433fb098044")
+	)
+	(wire
+		(pts
+			(xy 209.55 73.66) (xy 209.55 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44fdac4b-1b50-4813-8d4e-5e4a56cb645b")
+	)
+	(wire
+		(pts
+			(xy 184.15 73.66) (xy 184.15 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c786e2b-550c-45fc-a18f-0f8494db1809")
+	)
+	(wire
+		(pts
+			(xy 209.55 86.36) (xy 222.25 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "888f5ce5-ad94-4e2a-9a16-1ea5f273fe04")
+	)
+	(wire
+		(pts
+			(xy 196.85 73.66) (xy 196.85 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2c3ca6c-53ce-4c43-95e6-69d10696ae77")
+	)
+	(wire
+		(pts
+			(xy 179.07 73.66) (xy 179.07 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5723dec-8b07-4273-af8d-a17d6a3fa1bd")
+	)
+	(wire
+		(pts
+			(xy 201.93 73.66) (xy 201.93 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c66d46d5-7710-49d5-9ae4-8d8f99d0b8b7")
+	)
+	(sheet
+		(at 57.15 41.91)
+		(size 55.88 31.75)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3e24cd22-99b8-4f24-a536-e33a1068bbd2")
+		(property "Sheetname" "Power"
+			(at 57.15 41.1984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 57.15 74.2446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "USB_VBUS" input
+			(at 113.03 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d6287499-b10c-49a8-8904-6ae6a1b065ef")
+		)
+		(instances
+			(project "aprs_receiver_board"
+				(path "/8a8e4ede-5ef9-4a53-a3a5-89928e3630c6"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 133.35 43.18)
+		(size 85.09 30.48)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c85cdd07-6dde-424d-9bef-334e90a805cb")
+		(property "Sheetname" "USB Interface"
+			(at 133.35 42.4684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "usb_interface.kicad_sch"
+			(at 133.35 74.2446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "JTAG_TCK" input
+			(at 184.15 73.66 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f75c3abd-7c4b-41bb-836a-b944c244bf8f")
+		)
+		(pin "JTAG_TDI" input
+			(at 181.61 73.66 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "699327de-7e66-4cc9-aa48-cc6c67e3e5c6")
+		)
+		(pin "JTAG_TDO" input
+			(at 179.07 73.66 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "5d29b98f-5a0e-41e3-8cc8-61256cc245b1")
+		)
+		(pin "JTAG_TMS" input
+			(at 176.53 73.66 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9b2295ce-acf7-4103-965f-ea6eef69508b")
+		)
+		(pin "USB_VBUS" input
+			(at 133.35 63.5 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d7101548-8114-4ace-a092-20be5eb9a231")
+		)
+		(pin "HOLD" output
+			(at 209.55 73.66 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "3ff5fc49-ad17-4889-85dd-ccacfe27cf47")
+		)
+		(pin "SPI_MISO" input
+			(at 196.85 73.66 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "30229b24-524b-4a14-8753-c72bdffd32bb")
+		)
+		(pin "UART_RXD_SPI_MOSI" bidirectional
+			(at 199.39 73.66 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "96e13320-6875-4d33-bd90-a25f4316cba2")
+		)
+		(pin "UART_TXD_SPI_SCLK" output
+			(at 201.93 73.66 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "acdece17-ea49-40ab-b0eb-8446ab932cb5")
+		)
+		(pin "SPI_CS" output
+			(at 194.31 73.66 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f53cc2d3-1a3b-4ae0-8d72-4f8cf4748098")
+		)
+		(pin "CRESET_B" output
+			(at 204.47 73.66 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "1efad43f-cd08-4bf0-aac1-f0ff46150343")
+		)
+		(pin "CDONE" output
+			(at 207.01 73.66 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c6aef788-e9d1-4164-9932-cbed5cf62824")
+		)
+		(instances
+			(project "aprs_receiver_board"
+				(path "/8a8e4ede-5ef9-4a53-a3a5-89928e3630c6"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 156.845 113.03)
+		(size 74.295 43.18)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d55cfce2-e6ce-4722-a918-164ac31499ba")
+		(property "Sheetname" "FPGA"
+			(at 156.845 112.3184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "fpga.kicad_sch"
+			(at 156.845 156.7946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "ADC_IN" input
+			(at 156.845 138.43 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "72552cd3-f332-4e45-8b05-0a20d65e81f0")
+		)
+		(pin "SPI_MISO" output
+			(at 196.85 113.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "73240b7c-e6fb-4b52-bc2d-6b9456a727d1")
+		)
+		(pin "UART_RXD_SPI_MOSI" bidirectional
+			(at 199.39 113.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "83962c0d-f908-4574-8c37-11e3b89cefb1")
+		)
+		(pin "UART_TXD_SPI_SCLK" input
+			(at 201.93 113.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "43335820-4e27-4df2-b4d2-bff28711314b")
+		)
+		(pin "JTAG_TCK" input
+			(at 184.15 113.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f6cbfa2d-7aae-4956-99ef-799913654e55")
+		)
+		(pin "JTAG_TDO" input
+			(at 179.07 113.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "4f48b338-cc1e-4029-8f96-f379ad0d17b1")
+		)
+		(pin "CRESET_B" input
+			(at 204.47 113.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "7d035d00-7195-4c62-abd2-9ca1f235e5db")
+		)
+		(pin "JTAG_TMS" input
+			(at 176.53 113.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a28fd450-3fff-4d4f-ac19-90f4f641fd29")
+		)
+		(pin "JTAG_TDI" input
+			(at 181.61 113.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "5b2c60c0-bc12-499b-bed1-1baebd35ed73")
+		)
+		(pin "CDONE" input
+			(at 207.01 113.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "6179072b-4ef9-49e9-bed1-8eb81b725fa6")
+		)
+		(pin "SPI_CS" input
+			(at 194.31 113.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "bc197bb4-4995-454e-8218-6e62675dc0fe")
+		)
+		(instances
+			(project "aprs_receiver_board"
+				(path "/8a8e4ede-5ef9-4a53-a3a5-89928e3630c6"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
 )
