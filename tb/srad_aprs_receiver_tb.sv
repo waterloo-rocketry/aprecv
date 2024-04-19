@@ -1,0 +1,2 @@
+module srad_aprs_receiver_tb;
+endmodule
