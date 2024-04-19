@@ -6,5 +6,5 @@
   (lib (name "RT9059GSP")(type "KiCad")(uri "${KIPRJMOD}/RT9059GSP.kicad_sym")(options "")(descr ""))
   (lib (name "TA0411A")(type "KiCad")(uri "${KIPRJMOD}/TA0411A.kicad_sym")(options "")(descr ""))
   (lib (name "ECS-96SMF21A30")(type "KiCad")(uri "${KIPRJMOD}/ECS-96SMF21A30.kicad_sym")(options "")(descr ""))
-  (lib (name "MAR-6SM_")(type "KiCad")(uri "${KIPRJMOD}/MAR-6SM_.kicad_sym")(options "")(descr ""))
+  (lib (name "PSA4-5043_")(type "KiCad")(uri "${KIPRJMOD}/PSA4-5043_.kicad_sym")(options "")(descr ""))
 )

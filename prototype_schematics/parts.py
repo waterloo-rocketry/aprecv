@@ -4,7 +4,8 @@ from math import pi, inf
 # (((960-j372)ohm) || (390nH * j45MHz * 2pi) || 250ohm) + 1 / (39pF * j45MHz *2pi)
 
 # design parameters
-src_z = 1100-150j
+#src_z = 1100-150j
+src_z = 50
 load_z = 2000
 freq = 21.4e6
 w = freq * 2 * pi
@@ -30,11 +31,10 @@ def impedance(w, L, C):
     ZL =  1j * (w * L)
     ZC = -1j / (w * C)
 
-    Z1 = ll(src_z, ZL)
-    Z2 = Z1 + ZC
-    Z3 = ll(Z2, ZL)
+    Z1 = src_z + ZC
+    Z2 = ll(Z1, ZL)
 
-    return Z3
+    return Z2
 
 rsts = []
 
