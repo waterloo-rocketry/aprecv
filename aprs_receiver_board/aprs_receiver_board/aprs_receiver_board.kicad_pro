@@ -412,6 +412,10 @@
     [
       "d55cfce2-e6ce-4722-a918-164ac31499ba",
       "FPGA"
+    ],
+    [
+      "38fccc79-beb2-47d5-90ee-fa28adeba9f2",
+      "FPGA IO"
     ]
   ],
   "text_variables": {}

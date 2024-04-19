@@ -6,12 +6,12 @@
 	(paper "A4")
 	(lib_symbols)
 	(no_connect
-		(at 222.25 86.36)
+		(at 200.66 82.55)
 		(uuid "57992069-559e-4f27-aad6-df1dd16244a4")
 	)
 	(wire
 		(pts
-			(xy 199.39 73.66) (xy 199.39 113.03)
+			(xy 177.8 69.85) (xy 177.8 109.22)
 		)
 		(stroke
 			(width 0)
@@ -21,7 +21,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 73.66) (xy 194.31 113.03)
+			(xy 172.72 69.85) (xy 172.72 109.22)
 		)
 		(stroke
 			(width 0)
@@ -31,7 +31,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 73.66) (xy 176.53 113.03)
+			(xy 154.94 69.85) (xy 154.94 109.22)
 		)
 		(stroke
 			(width 0)
@@ -41,7 +41,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 63.5) (xy 133.35 63.5)
+			(xy 91.44 59.69) (xy 111.76 59.69)
 		)
 		(stroke
 			(width 0)
@@ -51,7 +51,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 73.66) (xy 204.47 113.03)
+			(xy 182.88 69.85) (xy 182.88 109.22)
 		)
 		(stroke
 			(width 0)
@@ -61,7 +61,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 73.66) (xy 207.01 113.03)
+			(xy 185.42 69.85) (xy 185.42 109.22)
 		)
 		(stroke
 			(width 0)
@@ -71,7 +71,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 73.66) (xy 181.61 113.03)
+			(xy 160.02 69.85) (xy 160.02 109.22)
 		)
 		(stroke
 			(width 0)
@@ -81,7 +81,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 73.66) (xy 209.55 86.36)
+			(xy 187.96 69.85) (xy 187.96 82.55)
 		)
 		(stroke
 			(width 0)
@@ -91,7 +91,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 73.66) (xy 184.15 113.03)
+			(xy 162.56 69.85) (xy 162.56 109.22)
 		)
 		(stroke
 			(width 0)
@@ -101,7 +101,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 86.36) (xy 222.25 86.36)
+			(xy 187.96 82.55) (xy 200.66 82.55)
 		)
 		(stroke
 			(width 0)
@@ -111,7 +111,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 73.66) (xy 196.85 113.03)
+			(xy 175.26 69.85) (xy 175.26 109.22)
 		)
 		(stroke
 			(width 0)
@@ -121,7 +121,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 73.66) (xy 179.07 113.03)
+			(xy 157.48 69.85) (xy 157.48 109.22)
 		)
 		(stroke
 			(width 0)
@@ -131,7 +131,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 73.66) (xy 201.93 113.03)
+			(xy 180.34 69.85) (xy 180.34 109.22)
 		)
 		(stroke
 			(width 0)
@@ -140,7 +140,45 @@
 		(uuid "c66d46d5-7710-49d5-9ae4-8d8f99d0b8b7")
 	)
 	(sheet
-		(at 57.15 41.91)
+		(at 198.12 99.06)
+		(size 81.28 62.23)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "38fccc79-beb2-47d5-90ee-fa28adeba9f2")
+		(property "Sheetname" "FPGA IO"
+			(at 198.12 98.3484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "fpga_io.kicad_sch"
+			(at 198.12 161.8746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "aprs_receiver_board"
+				(path "/8a8e4ede-5ef9-4a53-a3a5-89928e3630c6"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 35.56 38.1)
 		(size 55.88 31.75)
 		(fields_autoplaced yes)
 		(stroke
@@ -152,7 +190,7 @@
 		)
 		(uuid "3e24cd22-99b8-4f24-a536-e33a1068bbd2")
 		(property "Sheetname" "Power"
-			(at 57.15 41.1984 0)
+			(at 35.56 37.3884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -161,7 +199,7 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 57.15 74.2446 0)
+			(at 35.56 70.4346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -170,7 +208,7 @@
 			)
 		)
 		(pin "USB_VBUS" input
-			(at 113.03 63.5 0)
+			(at 91.44 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -188,7 +226,7 @@
 		)
 	)
 	(sheet
-		(at 133.35 43.18)
+		(at 111.76 39.37)
 		(size 85.09 30.48)
 		(fields_autoplaced yes)
 		(stroke
@@ -200,7 +238,7 @@
 		)
 		(uuid "c85cdd07-6dde-424d-9bef-334e90a805cb")
 		(property "Sheetname" "USB Interface"
-			(at 133.35 42.4684 0)
+			(at 111.76 38.6584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -209,7 +247,7 @@
 			)
 		)
 		(property "Sheetfile" "usb_interface.kicad_sch"
-			(at 133.35 74.2446 0)
+			(at 111.76 70.4346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -218,7 +256,7 @@
 			)
 		)
 		(pin "JTAG_TCK" input
-			(at 184.15 73.66 270)
+			(at 162.56 69.85 270)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -228,7 +266,7 @@
 			(uuid "f75c3abd-7c4b-41bb-836a-b944c244bf8f")
 		)
 		(pin "JTAG_TDI" input
-			(at 181.61 73.66 270)
+			(at 160.02 69.85 270)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -238,7 +276,7 @@
 			(uuid "699327de-7e66-4cc9-aa48-cc6c67e3e5c6")
 		)
 		(pin "JTAG_TDO" input
-			(at 179.07 73.66 270)
+			(at 157.48 69.85 270)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -248,7 +286,7 @@
 			(uuid "5d29b98f-5a0e-41e3-8cc8-61256cc245b1")
 		)
 		(pin "JTAG_TMS" input
-			(at 176.53 73.66 270)
+			(at 154.94 69.85 270)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -258,7 +296,7 @@
 			(uuid "9b2295ce-acf7-4103-965f-ea6eef69508b")
 		)
 		(pin "USB_VBUS" input
-			(at 133.35 63.5 180)
+			(at 111.76 59.69 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -268,7 +306,7 @@
 			(uuid "d7101548-8114-4ace-a092-20be5eb9a231")
 		)
 		(pin "HOLD" output
-			(at 209.55 73.66 270)
+			(at 187.96 69.85 270)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -278,7 +316,7 @@
 			(uuid "3ff5fc49-ad17-4889-85dd-ccacfe27cf47")
 		)
 		(pin "SPI_MISO" input
-			(at 196.85 73.66 270)
+			(at 175.26 69.85 270)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -288,7 +326,7 @@
 			(uuid "30229b24-524b-4a14-8753-c72bdffd32bb")
 		)
 		(pin "UART_RXD_SPI_MOSI" bidirectional
-			(at 199.39 73.66 270)
+			(at 177.8 69.85 270)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -298,7 +336,7 @@
 			(uuid "96e13320-6875-4d33-bd90-a25f4316cba2")
 		)
 		(pin "UART_TXD_SPI_SCLK" output
-			(at 201.93 73.66 270)
+			(at 180.34 69.85 270)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -308,7 +346,7 @@
 			(uuid "acdece17-ea49-40ab-b0eb-8446ab932cb5")
 		)
 		(pin "SPI_CS" output
-			(at 194.31 73.66 270)
+			(at 172.72 69.85 270)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -318,7 +356,7 @@
 			(uuid "f53cc2d3-1a3b-4ae0-8d72-4f8cf4748098")
 		)
 		(pin "CRESET_B" output
-			(at 204.47 73.66 270)
+			(at 182.88 69.85 270)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -328,7 +366,7 @@
 			(uuid "1efad43f-cd08-4bf0-aac1-f0ff46150343")
 		)
 		(pin "CDONE" output
-			(at 207.01 73.66 270)
+			(at 185.42 69.85 270)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -346,8 +384,8 @@
 		)
 	)
 	(sheet
-		(at 156.845 113.03)
-		(size 74.295 43.18)
+		(at 135.255 109.22)
+		(size 57.785 53.34)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -358,7 +396,7 @@
 		)
 		(uuid "d55cfce2-e6ce-4722-a918-164ac31499ba")
 		(property "Sheetname" "FPGA"
-			(at 156.845 112.3184 0)
+			(at 135.255 108.5084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -367,7 +405,7 @@
 			)
 		)
 		(property "Sheetfile" "fpga.kicad_sch"
-			(at 156.845 156.7946 0)
+			(at 135.255 163.1446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -376,7 +414,7 @@
 			)
 		)
 		(pin "ADC_IN" input
-			(at 156.845 138.43 180)
+			(at 135.255 134.62 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -386,7 +424,7 @@
 			(uuid "72552cd3-f332-4e45-8b05-0a20d65e81f0")
 		)
 		(pin "SPI_MISO" output
-			(at 196.85 113.03 90)
+			(at 175.26 109.22 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -396,7 +434,7 @@
 			(uuid "73240b7c-e6fb-4b52-bc2d-6b9456a727d1")
 		)
 		(pin "UART_RXD_SPI_MOSI" bidirectional
-			(at 199.39 113.03 90)
+			(at 177.8 109.22 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -406,7 +444,7 @@
 			(uuid "83962c0d-f908-4574-8c37-11e3b89cefb1")
 		)
 		(pin "UART_TXD_SPI_SCLK" input
-			(at 201.93 113.03 90)
+			(at 180.34 109.22 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -416,7 +454,7 @@
 			(uuid "43335820-4e27-4df2-b4d2-bff28711314b")
 		)
 		(pin "JTAG_TCK" input
-			(at 184.15 113.03 90)
+			(at 162.56 109.22 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -426,7 +464,7 @@
 			(uuid "f6cbfa2d-7aae-4956-99ef-799913654e55")
 		)
 		(pin "JTAG_TDO" input
-			(at 179.07 113.03 90)
+			(at 157.48 109.22 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -436,7 +474,7 @@
 			(uuid "4f48b338-cc1e-4029-8f96-f379ad0d17b1")
 		)
 		(pin "CRESET_B" input
-			(at 204.47 113.03 90)
+			(at 182.88 109.22 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -446,7 +484,7 @@
 			(uuid "7d035d00-7195-4c62-abd2-9ca1f235e5db")
 		)
 		(pin "JTAG_TMS" input
-			(at 176.53 113.03 90)
+			(at 154.94 109.22 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -456,7 +494,7 @@
 			(uuid "a28fd450-3fff-4d4f-ac19-90f4f641fd29")
 		)
 		(pin "JTAG_TDI" input
-			(at 181.61 113.03 90)
+			(at 160.02 109.22 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -466,7 +504,7 @@
 			(uuid "5b2c60c0-bc12-499b-bed1-1baebd35ed73")
 		)
 		(pin "CDONE" input
-			(at 207.01 113.03 90)
+			(at 185.42 109.22 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -476,7 +514,7 @@
 			(uuid "6179072b-4ef9-49e9-bed1-8eb81b725fa6")
 		)
 		(pin "SPI_CS" input
-			(at 194.31 113.03 90)
+			(at 172.72 109.22 90)
 			(effects
 				(font
 					(size 1.27 1.27)
