@@ -40,7 +40,7 @@
         (name "IN" (effects (font (size 1.016 1.016))))
         (number "3" (effects (font (size 1.016 1.016))))
       )
-      (pin power_in line (at 1.27 -7.62 90) (length 5.08)
+      (pin power_in line (at 1.27 -7.62 90) (length 5.08) hide
         (name "GND" (effects (font (size 1.016 1.016))))
         (number "4" (effects (font (size 1.016 1.016))))
       )
