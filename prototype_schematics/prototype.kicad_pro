@@ -184,7 +184,10 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      "lib_symbol_issues|1612900|812800|c0c6a7f8-bc71-4be6-b412-fd45f82c3a32|00000000-0000-0000-0000-000000000000|||",
+      "power_pin_not_driven|1384300|330200|95e322e3-1bb9-4ae9-b686-e592c003651c|00000000-0000-0000-0000-000000000000|||"
+    ],
     "meta": {
       "version": 0
     },
@@ -384,7 +387,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "simulation_model_issue": "ignore",
