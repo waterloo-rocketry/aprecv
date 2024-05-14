@@ -7,4 +7,7 @@
   (lib (name "MAX2608EUT")(type "KiCad")(uri "${KIPRJMOD}/MAX2608EUT.pretty")(options "")(descr ""))
   (lib (name "PSA4-5043")(type "KiCad")(uri "${KIPRJMOD}/PSA4-5043.pretty")(options "")(descr ""))
   (lib (name "filter")(type "KiCad")(uri "${KIPRJMOD}/filter.pretty")(options "")(descr ""))
+  (lib (name "CONMHF1_SMD_T")(type "KiCad")(uri "${KIPRJMOD}/CONMHF1_SMD_T.pretty")(options "")(descr ""))
+  (lib (name "SJ1_2503A")(type "KiCad")(uri "${KIPRJMOD}/SJ1_2503A.pretty")(options "")(descr ""))
+  (lib (name "TRIM_PT01")(type "KiCad")(uri "${KIPRJMOD}/TRIM_PT01.pretty")(options "")(descr ""))
 )
