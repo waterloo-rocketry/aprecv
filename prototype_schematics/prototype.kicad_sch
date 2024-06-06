@@ -6210,7 +6210,7 @@
     (property "Datasheet" " ~" (at 24.13 160.02 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Digikey" "CON-SMA-EDGE-S-ND" (at 24.13 160.02 0)
+    (property "Digikey" "931-1175-ND" (at 24.13 160.02 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 19f24eb0-8333-4a36-916f-42ad80514d1a))
