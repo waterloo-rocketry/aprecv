@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "SRAD_APRS")(type "KiCad")(uri "${KIPRJMOD}/SRAD_APRS.kicad_sym")(options "")(descr ""))
+)
